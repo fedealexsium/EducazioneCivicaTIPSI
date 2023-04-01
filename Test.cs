@@ -11,7 +11,7 @@ public static class Test
         Assert.Equal(expected, returned);
 
         //es2
-        expected = "iao";
+        expected = "ciao";
         returned = Applicazione.Es2("msky", 10);
         Assert.Equal(expected, returned);
     }
