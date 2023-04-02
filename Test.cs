@@ -33,5 +33,10 @@ public static class Test
         Iexpected = 1;
         Ireturned = Applicazione.Es6();
         Assert.Equal(Iexpected, Ireturned);
+
+        //Es7
+        Dexpected = 405;
+        Dreturned = Applicazione.Es7("ciao");
+        Assert.Equal(Dexpected, Dreturned);
     }
 }
