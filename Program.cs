@@ -3,6 +3,7 @@
 public static class Applicazione
 {
     private static string alfabeto = "abcdefghijklmnopqrstuvwxyz";
+    private static int contatore = 0;
     public static string Es1(string s, int n)
     {
         int index = 0;
@@ -83,11 +84,17 @@ public static class Applicazione
 
     public static double Es5(string s, int n)
     {
+        contatore++;
         if (n % 2 == 0)
         {
             return Es3(s, n);
         }
         else
             return Es4(s, n);
+    }
+
+    public static int Es6()
+    {
+        return contatore;
     }
 }
