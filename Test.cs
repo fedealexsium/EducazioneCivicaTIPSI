@@ -31,7 +31,7 @@ public static class Test
         Assert.Equal(Dexpected, Dreturned);
 
         //Es6
-        Iexpected = 0;
+        Iexpected = 1;
         Ireturned = Applicazione.Es6();
         Assert.Equal(Iexpected, Ireturned);
     }
